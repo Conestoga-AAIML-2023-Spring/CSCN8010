@@ -61,7 +61,7 @@ def validate_python_version():
     Check if the installed Python version is within the recommended range (3.7.x-3.11.x).
     If not, exit the script with a message.
     """
-    if (sys.version_info >= (3, 7)) and (sys.version_info <= (3, 11)):
+    if (sys.version_info >= (3, 7)) and (sys.version_info < (3, 12)):
         print(
             f'Python version {sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro} is installed. '
             '(the recommended version for this repository is 3.7.x-3.11.x)'
