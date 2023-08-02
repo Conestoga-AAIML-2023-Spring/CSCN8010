@@ -6,6 +6,9 @@ __pycache__/
 # models folder
 models/
 
+# data folder
+data/
+
 # C extensions
 *.so
 
