@@ -6,3 +6,4 @@ matplotlib==3.7.1
 numpy==1.24.3
 ipykernel==6.22.0  # needed to run jupyter notebooks 
 nbconvert==7.3.1  # needed for converting ipynb to other formats such as python, html and pdf 
+mkl==2023.1.0 # help for ipykernal to fix torch issue on mac.
